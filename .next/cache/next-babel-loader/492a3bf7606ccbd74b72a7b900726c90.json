@@ -1,0 +1,1 @@
+{"ast":null,"code":"// export const localhost = \"http://127.0.0.1:8000/\";\nexport const localhost = \"herokugit-auto-deploy.herokuapp.com\";\nexport const api = \"api/\";\nexport const endpoint = `${localhost}${api}`;\nexport const productsListUrl = `${endpoint}products-list`;","map":null,"metadata":{},"sourceType":"module"}

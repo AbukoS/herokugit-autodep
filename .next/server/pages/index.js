@@ -143,7 +143,8 @@ var external_react_slick_ = __webpack_require__("O/hg");
 var external_react_slick_default = /*#__PURE__*/__webpack_require__.n(external_react_slick_);
 
 // CONCATENATED MODULE: ./utils/constants.js
-const localhost = "http://127.0.0.1:8000/";
+// export const localhost = "http://127.0.0.1:8000/";
+const localhost = "https://herokugit-auto-deploy.herokuapp.com/";
 const api = "api/";
 const endpoint = `${localhost}${api}`;
 const productsListUrl = `${endpoint}products-list`;
@@ -177,7 +178,7 @@ function Home({
   return /*#__PURE__*/Object(jsx_runtime_["jsxs"])(react_["Box"], {
     w: "100vw",
     children: [/*#__PURE__*/Object(jsx_runtime_["jsx"])(react_["Heading"], {
-      children: "Simple Ecom Auto deploy site"
+      children: "Simple Ecommerce AutoDeploy Site"
     }), /*#__PURE__*/Object(jsx_runtime_["jsx"])(react_["Divider"], {}), /*#__PURE__*/Object(jsx_runtime_["jsx"])(external_react_slick_default.a, _objectSpread(_objectSpread({}, settings), {}, {
       children: items === null || items === void 0 ? void 0 : items.map(item => /*#__PURE__*/Object(jsx_runtime_["jsxs"])(react_["Box"], {
         w: "300px",

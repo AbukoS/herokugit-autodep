@@ -16,7 +16,7 @@ function Home({ items }) {
 
   return (
     <Box w="100vw">
-      <Heading>Simple Ecom Auto deploy site</Heading>
+      <Heading>Simple Ecommerce AutoDeploy Site</Heading>
       <Divider />
       <Slider {...settings}>
         {items?.map((item) => (
